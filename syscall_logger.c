@@ -12,7 +12,7 @@ int main() {
         return 1;
     }
 
-    fprintf(log, "System call accessed by user ID: %d\n", getuid());
+    fprintf(log, "System call accessed by user ID: %d\n", getuid());// this will print the user id
     fclose(log);
 
     return 0;
