@@ -13,7 +13,7 @@ int main() {
     }
 
     fprintf(log, "System call accessed by user ID: %d\n", getuid());// this will print the user id
-    fclose(log);
+    fclose(log); // file close
 
     return 0;
 }
